@@ -1,7 +1,7 @@
 import Hero from '../components/Hero'
 import React from 'react'
 import { Nav } from '../components/ui/Nav'
-import { Grid } from 'lucide-react'
+import Grid from '@/components/Grid'
 
 export default function Home() {
   return (
