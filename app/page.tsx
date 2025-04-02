@@ -2,6 +2,7 @@ import Hero from '../components/Hero'
 import React from 'react'
 import { Nav } from '../components/ui/Nav'
 import Grid from '@/components/Grid'
+import SignupFormDemo from '@/components/signupForm'
 
 export default function Home() {
   return (
@@ -10,6 +11,7 @@ export default function Home() {
         <Nav navItems={[{ name: 'Home', link: '/', icon: 'test' }]} />
         <Hero />
         <Grid />
+        <SignupFormDemo />
       </div>
     </main>
   )
